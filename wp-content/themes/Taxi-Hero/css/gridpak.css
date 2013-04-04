@@ -1,0 +1,87 @@
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+    /* 1. 8 Column Grid 0px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    11.625%
+    Span 2:    24.25%
+    Span 3:    36.875%
+    Span 4:    49.5%
+    Span 5:    62.125%
+    Span 6:    74.75%
+    Span 7:    87.375%
+    Span 8:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 0px) {
+        
+        .col {
+        	padding:0 1%;
+			margin: 1%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        .span_1, .span_2, .span_3, .span_4, .span_5, .span_6, 
+		.span_7, .span_8, .span_9, .span_10, .span_11, .span_12 
+		{ padding: 0 2.5%; float: left;}
+        
+        .span_1 {
+            width:7.41666666667%;
+        }
+        .span_2 {
+            width:15.8333333333%;
+        }
+        .span_3 {
+            width:24.25%;
+        }
+        .span_4 {
+            width:28%;
+        }
+        .span_5 {
+            width:41.0833333333%;
+        }
+        .span_6 {
+            width:49.5%;
+        }
+        .span_7 {
+            width:57.9166666667%;
+        }
+        .span_8 {
+            width:66.3333333333%;
+        }
+        .span_9 {
+            width:74.75%;
+        }
+        .span_10 {
+            width:83.1666666667%;
+        }
+        .span_11 {
+            width:91.5833333333%;
+        }
+        .span_12 {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
