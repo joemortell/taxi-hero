@@ -19,13 +19,13 @@
 define('DB_NAME', 'taxi-hero');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'seema');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'u2yXoKY3');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'tunnel.pagodabox.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
